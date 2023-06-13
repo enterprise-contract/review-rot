@@ -13,9 +13,9 @@ git_services:
   - enterprise-contract/hacks
   - enterprise-contract/infra-deployments-ci
   - enterprise-contract/tekton-catalog
-  - redhat-appstudio/docs.stonesoup.io
   - redhat-appstudio/book
   - redhat-appstudio/build-definitions
+  - redhat-appstudio/docs.appstudio.io
   - redhat-appstudio/e2e-tests
   - redhat-appstudio/infra-deployments
   #- renovatebot/renovate
