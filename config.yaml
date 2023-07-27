@@ -5,7 +5,7 @@ git_services:
   repos:
   - enterprise-contract/.github
   - enterprise-contract/ec-cli
-  - enterprise-contract/ec-cookbook
+  - enterprise-contract/user-guide
   - enterprise-contract/ec-policies
   - enterprise-contract/enterprise-contract-controller
   - enterprise-contract/golden-container
@@ -13,6 +13,7 @@ git_services:
   - enterprise-contract/hacks
   - enterprise-contract/infra-deployments-ci
   - enterprise-contract/tekton-catalog
+  - enterprise-contract/config
   - redhat-appstudio/book
   - redhat-appstudio/build-definitions
   - redhat-appstudio/docs.appstudio.io
