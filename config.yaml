@@ -14,6 +14,7 @@ git_services:
   - enterprise-contract/infra-deployments-ci
   - enterprise-contract/tekton-catalog
   - enterprise-contract/config
+  - enterprise-contract/action-validate-image
   - redhat-appstudio/book
   - redhat-appstudio/build-definitions
   - redhat-appstudio/docs.appstudio.io
