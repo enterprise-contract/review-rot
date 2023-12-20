@@ -15,11 +15,17 @@ git_services:
   - enterprise-contract/tekton-catalog
   - enterprise-contract/config
   - enterprise-contract/action-validate-image
+  - enterprise-contract/community
+  - enterprise-contract/github-workflows
+  - enterprise-contract/hooks
+  - enterprise-contract/review-rot
+  - enterprise-contract/policy_builder
   - redhat-appstudio/book
   - redhat-appstudio/build-definitions
   - redhat-appstudio/docs.appstudio.io
   - redhat-appstudio/e2e-tests
   - redhat-appstudio/infra-deployments
+  - redhat-appstudio/build-trusted-artifacts
   #- renovatebot/renovate
   - tektoncd/chains
   token: "${GITHUB_TOKEN}"
