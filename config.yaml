@@ -22,6 +22,7 @@ git_services:
   - enterprise-contract/policy_builder
   - redhat-appstudio/book
   - redhat-appstudio/build-definitions
+  - redhat-appstudio/build-trusted-artifacts
   - redhat-appstudio/docs.appstudio.io
   - redhat-appstudio/e2e-tests
   - redhat-appstudio/infra-deployments
