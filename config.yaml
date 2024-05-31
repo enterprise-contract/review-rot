@@ -1,32 +1,35 @@
 arguments:
   format: json
 git_services:
-- host: github.com
-  repos:
-  - enterprise-contract/.github
-  - enterprise-contract/ec-cli
-  - enterprise-contract/user-guide
-  - enterprise-contract/ec-policies
-  - enterprise-contract/enterprise-contract-controller
-  - enterprise-contract/golden-container
-  - enterprise-contract/enterprise-contract.github.io
-  - enterprise-contract/hacks
-  - enterprise-contract/infra-deployments-ci
-  - enterprise-contract/tekton-catalog
-  - enterprise-contract/config
-  - enterprise-contract/action-validate-image
-  - enterprise-contract/community
-  - enterprise-contract/github-workflows
-  - enterprise-contract/hooks
-  - enterprise-contract/review-rot
-  - enterprise-contract/policy_builder
-  - redhat-appstudio/book
-  - redhat-appstudio/build-definitions
-  - redhat-appstudio/docs.appstudio.io
-  - redhat-appstudio/e2e-tests
-  - redhat-appstudio/infra-deployments
-  - redhat-appstudio/build-trusted-artifacts
-  - redhat-appstudio/tenants-config
-  - tektoncd/chains
-  token: "${GITHUB_TOKEN}"
-  type: github
+  - host: github.com
+    repos:
+      - enterprise-contract/action-validate-image
+      - enterprise-contract/community
+      - enterprise-contract/config
+      - enterprise-contract/ec-cli
+      - enterprise-contract/ec-policies
+      - enterprise-contract/enterprise-contract-controller
+      - enterprise-contract/enterprise-contract.github.io
+      - enterprise-contract/.github
+      - enterprise-contract/github-workflows
+      - enterprise-contract/go-gather
+      - enterprise-contract/golden-container
+      - enterprise-contract/hacks
+      - enterprise-contract/hooks
+      - enterprise-contract/infra-deployments-ci
+      - enterprise-contract/policy_builder
+      - enterprise-contract/review-rot
+      - enterprise-contract/tekton-catalog
+      - enterprise-contract/user-guide
+      - konflux-ci/build-definitions
+      - konflux-ci/build-trusted-artifacts
+      - konflux-ci/e2e-tests
+      - konflux-ci/konflux-ci.github.io
+      - konflux-ci/konflux-test
+      - konflux-ci/release-service-catalog
+      - redhat-appstudio/docs.appstudio.io
+      - redhat-appstudio/infra-deployments
+      - redhat-appstudio/tenants-config
+      - tektoncd/chains
+    token: "${GITHUB_TOKEN}"
+    type: github
