@@ -12,6 +12,7 @@ git_services:
       - enterprise-contract/enterprise-contract.github.io
       - enterprise-contract/.github
       - enterprise-contract/github-workflows
+      - enterprise-contract/go-gather
       - enterprise-contract/golden-container
       - enterprise-contract/hacks
       - enterprise-contract/hooks
@@ -20,11 +21,13 @@ git_services:
       - enterprise-contract/review-rot
       - enterprise-contract/tekton-catalog
       - enterprise-contract/user-guide
-      - redhat-appstudio/book
-      - redhat-appstudio/build-definitions
-      - redhat-appstudio/build-trusted-artifacts
+      - konflux-ci/build-definitions
+      - konflux-ci/build-trusted-artifacts
+      - konflux-ci/e2e-tests
+      - konflux-ci/konflux-ci.github.io
+      - konflux-ci/konflux-test
+      - konflux-ci/release-service-catalog
       - redhat-appstudio/docs.appstudio.io
-      - redhat-appstudio/e2e-tests
       - redhat-appstudio/infra-deployments
       - redhat-appstudio/tenants-config
       - tektoncd/chains
