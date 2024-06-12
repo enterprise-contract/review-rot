@@ -9,7 +9,6 @@ authors='[
   "robnester-rh",
   "simonbaird",
   "zregvart",
-  "seanconroy2021",
   "ec-automation[bot]"
 ]'
 
