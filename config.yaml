@@ -23,13 +23,13 @@ git_services:
       - enterprise-contract/user-guide
       - konflux-ci/build-definitions
       - konflux-ci/build-trusted-artifacts
+      - konflux-ci/docs
       - konflux-ci/e2e-tests
       - konflux-ci/konflux-ci.github.io
       - konflux-ci/konflux-test
       - konflux-ci/release-service-catalog
-      - redhat-appstudio/docs.appstudio.io
       - redhat-appstudio/infra-deployments
-      - redhat-appstudio/tenants-config
+      - redhat-appstudio/tssc-sample-templates
       - tektoncd/chains
     token: "${GITHUB_TOKEN}"
     type: github
