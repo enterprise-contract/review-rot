@@ -3,6 +3,8 @@ arguments:
 git_services:
   - host: github.com
     repos:
+      - conforma/.github
+      - conforma/conforma.github.io
       - enterprise-contract/action-validate-image
       - enterprise-contract/community
       - enterprise-contract/config
