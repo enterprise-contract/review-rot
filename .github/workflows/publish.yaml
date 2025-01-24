@@ -33,7 +33,7 @@ jobs:
       - name: Process config
         env:
           EC_AUTOMATION_KEY: ${{ secrets.EC_AUTOMATION_KEY }}
-          APP_INSTALL_ID: 29980719
+          APP_INSTALL_ID: 59973090
         run: |-
           set -euo pipefail
           function createJWT() {
